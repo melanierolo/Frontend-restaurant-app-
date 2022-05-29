@@ -55,7 +55,7 @@ function Login(props) {
       );
       setUser(session.user.name);
     }
-  }, [status, session]);
+  }, [status, session, router, setUser]);
 
   function onChange(event) {
     updatedata({ ...data, [event.target.name]: event.target.value });
