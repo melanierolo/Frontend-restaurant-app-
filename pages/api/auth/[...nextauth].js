@@ -62,6 +62,7 @@ export default NextAuth({
       authorization: GOOGLE_AUTHORIZATION_URL,
     }),
   ],
+  secret: process.env.JWT_SECRET,
   //Callbacks
   callbacks: {
     async jwt({ token, user, account }) {
