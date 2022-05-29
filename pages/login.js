@@ -41,7 +41,7 @@ function Login(props) {
     if (isAuthenticated) {
       router.push("/"); // redirect if you're already logged
     }
-  }, []);
+  }, [isAuthenticated, router]);
 
   useEffect(() => {
     if (status === "authenticated") {
