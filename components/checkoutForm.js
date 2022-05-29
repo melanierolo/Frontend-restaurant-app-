@@ -208,4 +208,4 @@ function CheckoutForm() {
     </div>
   );
 }
-export default checkoutForm;
+export default CheckoutForm;
