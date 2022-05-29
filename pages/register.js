@@ -145,9 +145,6 @@ const Register = () => {
           a {
             color: blue !important;
           }
-          img {
-            margin: 15px 30px 10px 50px;
-          }
         `}
       </style>
     </Container>
