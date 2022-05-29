@@ -2,7 +2,7 @@ import React from "react";
 
 import { CardElement } from "@stripe/react-stripe-js";
 
-function cardSection(props) {
+function CardSection(props) {
   return (
     <div>
       <div>
@@ -43,4 +43,4 @@ function cardSection(props) {
     </div>
   );
 }
-export default cardSection;
+export default CardSection;
