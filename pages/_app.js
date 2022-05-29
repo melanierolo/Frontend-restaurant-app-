@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import React, { useContext, useState } from "react";
 import AppContext from "../components/context";
 import Head from "next/head";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import { SessionProvider } from "next-auth/react";
 
 function MyApp(props) {
