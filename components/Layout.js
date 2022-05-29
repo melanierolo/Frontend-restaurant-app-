@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { Container, Nav, NavItem } from "reactstrap";
-import { logout } from "../components/auth";
+import { logout } from "./auth";
 import AppContext from "./context";
 
 const Layout = (props) => {
